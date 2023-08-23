@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		converteReal(10.0, "dolar")
+	}
+
+	funcao converteReal (real valor, cadeia moeda)
+	{
+		se(moeda == "dolar")
+		{
+			valor = valor/4.85
+			escreva(valor)
+		}
+		senao se(moeda == "euro")
+		{
+			valor = valor/5.27
+			escreva(valor)
+		}
+	}
+}

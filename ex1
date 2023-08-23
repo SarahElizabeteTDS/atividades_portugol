@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		soma(10,12,31)
+	}
+
+	funcao soma(inteiro num1, inteiro num2, inteiro num3)
+	{
+		escreva(num1 + num2 + num3)
+	}
+}

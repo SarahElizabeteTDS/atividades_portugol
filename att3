@@ -1,0 +1,19 @@
+programa
+{
+	inclua biblioteca Calendario
+ --> c
+	
+	funcao inicio()
+	{
+		horaPc()
+	}
+
+	funcao horaPc()
+	{
+		inteiro hora
+		inteiro dia
+		dia = c.dia_mes_atual()
+		hora = c.hora_atual(falso)
+		escreva("Hora: ",hora, "\nDia: ",dia)
+	}
+}
